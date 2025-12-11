@@ -1,0 +1,35 @@
+/* ------------------------------
+   sidebar.css（商品一覧ページ）
+------------------------------ */
+
+.sidebar {
+    width: 220px;
+    background-color: #E4D18C;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.search-group {
+    margin-bottom: 15px;
+}
+
+.search-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.sort-select {
+    margin-bottom: 20px;
+}
+
+.btn-search {
+    background-color: #C7A43C;
+    color: white;
+    width: 100%;
+}

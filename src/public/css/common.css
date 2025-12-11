@@ -1,0 +1,73 @@
+/* ------------------------------
+   common.css（全ページ共通）
+------------------------------ */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F4E8;
+}
+
+main {
+    padding: 20px;
+    margin-left: 220px;
+    /* 左固定ヘッダーぶん余白 */
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8B8A81;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+/* ボタン共通 */
+.btn {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 黄色系 */
+.btn-yellow {
+    background-color: #E4D18C;
+}
+
+.btn-dark-yellow {
+    background-color: #C7A43C;
+    color: #fff;
+}
+
+/* エラー表示 */
+.error-text {
+    color: #A94442;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 必須バッジ */
+.badge-required {
+    display: inline-block;
+    background-color: #A94442;
+    color: white;
+    padding: 2px 6px;
+    font-size: 11px;
+    border-radius: 4px;
+    margin-left: 6px;
+}

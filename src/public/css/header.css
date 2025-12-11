@@ -1,0 +1,19 @@
+/* ------------------------------
+   header.css（左固定ヘッダー）
+------------------------------ */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #E4D18C;
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #C7A43C;
+}
