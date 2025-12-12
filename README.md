@@ -15,6 +15,9 @@
   composer install
   ```
 - 「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.env ファイルを作成
+- ```
+  cp .env.example .env
+  ```
 - .env に以下の環境変数を追加
   ```
   DB_CONNECTION=mysql
