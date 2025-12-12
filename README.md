@@ -2,7 +2,7 @@
 
 ## Docker ビルド
 
-- git clone git@github.com/yumiyumeo/mogitate2.git
+- git clone git@github.com/yumiyumeo/mogitate2
 - DockerDesktop アプリを立ち上げる
 - docker-compose up -d --build
 
