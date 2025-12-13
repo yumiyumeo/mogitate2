@@ -2,7 +2,7 @@
 
 ## Docker ビルド
 
-- git clone git@github.com:estra-inc/confirmation-test-contact-form.git
+- git clone git@github.com:yumiyumeo/mogitate2.git
 - DockerDesktop アプリを立ち上げる
 - docker-compose up -d --build
 
@@ -15,6 +15,9 @@
   composer install
   ```
 - 「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.env ファイルを作成
+- ```
+  cp .env.example .env
+  ```
 - .env に以下の環境変数を追加
   ```
   DB_CONNECTION=mysql
