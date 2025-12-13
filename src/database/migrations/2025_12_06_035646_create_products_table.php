@@ -12,9 +12,9 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('name');
             $table->integer('price');
-            $table->string('image_path');
+            $table->string('image');
             $table->json('seasons');
-            $table->string('description', 120);
+            $table->text('description', 120);
             $table->timestamps();
         });
         Schema::table('products', function (Blueprint $table) {
